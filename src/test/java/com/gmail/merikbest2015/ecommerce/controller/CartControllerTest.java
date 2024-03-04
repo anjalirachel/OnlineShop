@@ -62,6 +62,7 @@ public class CartControllerTest {
                 .andExpect(model().attribute("perfumes", hasSize(0)));
     }
 
+    //Added Test Case
 
     @Test
     public void testAddPerfumeToCart() throws Exception {
@@ -77,6 +78,7 @@ public class CartControllerTest {
                 .andExpect(MockMvcResultMatchers.redirectedUrl("/cart"));
     }
 
+    //2nd Test Case
 
     @Test
     public void testRemovePerfumeFromCart() throws Exception {
@@ -112,6 +114,8 @@ public class CartControllerTest {
                 .andExpect(redirectedUrl(PathConstants.CART));
     }
 
+
+    // 3rd Test Case
     @org.junit.Test
     public void testGetCart() throws Exception {
         when(cartService.getPerfumesInCart()).thenReturn(new ArrayList<>());
