@@ -1,6 +1,6 @@
 # :hibiscus: Perfume web store
 
-This E-commerce project built on Spring Boot.<br>
+This E-commerce project built on Spring Boot<br>
 Deployed on Amazon web services EC2.<br>
 See demo below.
 
