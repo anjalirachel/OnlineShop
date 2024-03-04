@@ -106,4 +106,5 @@ public class AdminController {
         controllerUtils.addPagination(model, userResponse.getOrders());
         return Pages.ADMIN_USER_DETAIL;
     }
+
 }

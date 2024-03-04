@@ -204,4 +204,5 @@ public class UserControllerTest {
                 .andExpect(view().name(Pages.USER_PASSWORD_RESET))
                 .andExpect(model().attribute("passwordError", is(ErrorMessage.PASSWORDS_DO_NOT_MATCH)));
     }
+
 }
